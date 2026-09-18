@@ -1,0 +1,6 @@
+server:
+  port: ${PORT:8088}
+spring:
+  datasource:
+    hikari:
+      maximum-pool-size: ${MOOC_WORKER_DB_POOL_SIZE:12}
